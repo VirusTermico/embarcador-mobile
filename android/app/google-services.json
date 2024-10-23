@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "544318675493",
+    "project_id": "embarcador-d932b",
+    "storage_bucket": "embarcador-d932b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544318675493:android:d1298ba41f7ca3ce9d7dcc",
+        "android_client_info": {
+          "package_name": "com.beno.jp.customer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBawR_AVA_mD8xBdltiTtk7xLycQu8Zscw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

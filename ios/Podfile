@@ -1,4 +1,8 @@
 # Resolve react_native_pods.rb with node to allow for hoisting
+use_frameworks! :linkage => :static
+$RNFirebaseAsStaticFramework = true
+
+
 require Pod::Executable.execute_command('node', ['-p',
   'require.resolve(
     "react-native/scripts/react_native_pods.rb",
@@ -16,6 +20,7 @@ end
 
 target 'HamburgariaJP' do
   config = use_native_modules!
+
 
   use_react_native!(
     :path => config[:reactNativePath],
